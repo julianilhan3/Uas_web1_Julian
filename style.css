@@ -1,0 +1,209 @@
+.navbar .navbar-nav .nav-link a{
+    color : white;
+}
+.navbar .navbar-brand img {
+    width : 100px;
+}
+
+.navbar .navbar-nav {
+    margin : auto;
+}
+
+.navbar a {
+    font-family : 'Poppins'; 
+    
+}
+
+.navbar .btn a {
+    color : white;
+    text-decoration : none;
+    font-family : 'Poppins';  
+    font-weight : bold; 
+}
+
+.hero .text {
+    margin-top : 64px;
+}
+
+.hero h2 {
+   font-size : 42px;
+   font-family : 'Poppins';
+   font-weight : bold;
+}
+.hero p {
+    margin-top : 32px; 
+}
+
+.hero img {
+    width : 100%;
+}
+
+ .hero .btn a {
+    color : white;
+    text-decoration : none;
+    font-family : 'Poppins';  
+    font-weight : bold; 
+}
+
+
+.hero .btn:hover {
+    color : red;
+    background-color :rgb(255, 64, 5);
+    text-decoration : none;
+    font-family : 'Poppins';  
+    font-weight : bold; 
+}
+
+.tutorial .text {
+margin-top : 42px;
+}
+
+.tutorial .text h1 {
+    font-size : 24px;
+    font-family : 'Poppins';
+    font-weight : bold;
+}
+
+.tutorial .text h2 {
+    font-size : 16px;
+ }
+
+ .tutorial .card-tutor {
+    background-color : #F4FF29;
+    padding : 18px;
+    color :rgb(255, 64, 5);
+    border-radius : 12px;
+    margin-top : 42px;
+    margin-bottom : 100px;
+ }
+
+ .tutorial .card-tutor h5 {
+    font-family : 'Poppins';
+    font-weight : 600;
+ }
+
+.tutorial .card-tutor p {
+    font-family : 'Poppins';
+    font-weight : 500;
+    font-size : 13px;
+    text-align : justify;
+    color : black;
+}
+
+
+
+
+
+#form-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-bottom : 100px;  
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #F4FF29;
+    color: black;
+}
+
+
+
+
+footer {
+
+    background-color: #333;
+    color : white;
+    text-align: center;
+    padding: 18px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color : red;
+}
+footer a {
+ text-decoration: none;
+ color : black;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) { 
+
+.hero .text {
+    margin-top :24px;
+}
+
+.hero .text h2  {
+    font-size : 32px;
+    line-height : 42px; 
+}
+
+.hero .text p  {
+    font-size : 16px;
+    text-align : justify;
+    margin-top : 8px; 
+}
+
+
+    
+#form-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    table {
+        width: 100%;
+    
+    }
+
+ 
+}
+/* end Responsive */
